@@ -122,6 +122,15 @@ py -3 scripts\build_release.py
 - 本项目：应以实际测试输出为准；自动化覆盖记录解析、跨对话模拟、队列恢复、去重、配置保留和隔离安装/停用。
 - 发布门槛：在 VS Code 重载后完成真实 A/B/C 对话和审批/提问验收，并记录系统、Python、Codex 版本。尚未完成，不应宣称所有场景已验证。
 
+## 贡献与 AI 协作
+
+- **[cnzhq](https://github.com/cnzhq)**：提出需求、确定功能和发布方向、提供实际使用反馈并授权发布。
+- **[OpenAI Codex](https://github.com/codex) / ChatGPT**：辅助方案设计、代码实现、测试编写与运行、问题排查及文档整理。
+
+本项目使用 AI 辅助开发，由维护者决定验收与发布。此说明不表示 OpenAI 对本项目的官方背书。Codex 实际参与的提交通过 `Co-authored-by` 标记共同作者；GitHub 头像和贡献者统计以平台实际识别结果为准。
+
+真人和 AI 均必须遵守[提交规范](CONTRIBUTING.md#提交规范真人与-ai-一致适用)，使用约定式提交消息。供 AI 助手读取的项目指令见 [AGENTS.md](AGENTS.md)。
+
 ## 许可证与来源
 
 本项目采用 [MIT 许可证](LICENSE)。版权声明使用项目贡献者名称：Codex Desktop Alerts contributors。

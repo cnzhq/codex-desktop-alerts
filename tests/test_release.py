@@ -20,6 +20,8 @@ class ReleaseTests(unittest.TestCase):
                 names = bundle.namelist()
                 self.assertTrue(any(name.endswith('/README.md') for name in names))
                 self.assertTrue(any(name.endswith('/LICENSE') for name in names))
+                self.assertTrue(any(name.endswith('/AGENTS.md') for name in names))
+                self.assertTrue(any(name.endswith('/CONTRIBUTING.md') for name in names))
                 for name in names:
                     self.assertNotIn('__pycache__', name)
                     self.assertNotIn('/.git/', name)

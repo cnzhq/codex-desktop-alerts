@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 VERSION = '0.1.0a1'
 ROOT_FILES = ('alerts.py', 'hook_config.py', 'manage.py', 'install.ps1', 'uninstall.ps1',
               'README.md', 'NOTICE.md', 'CHANGELOG.md', 'CONTRIBUTING.md', 'SECURITY.md',
-              'pyproject.toml', '.gitignore', '.gitattributes', 'LICENSE')
+              'pyproject.toml', '.gitignore', '.gitattributes', 'LICENSE', 'AGENTS.md')
 PATTERNS = ('docs/*.md', 'tests/test_*.py', 'tests/integration.ps1',
             'tests/gui_smoke.ps1',
             'scripts/build_release.py', '.github/workflows/*.yml',
