@@ -1,0 +1,25 @@
+name: 提醒问题
+description: 报告经过脱敏的安装或通知问题
+body:
+  - type: markdown
+    attributes:
+      value: 请勿上传真实会话、完整 Hook 配置、运行记录、备份、用户名或凭据。
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境
+      description: Windows、Python、Codex 扩展/CLI 版本；本地/WSL/远程；是否自定义 CODEX_HOME。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤和预期/实际行为
+      description: 使用合成任务，说明测试弹窗、完成、审批或提问中的哪一步失败。
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: 已做检查
+      description: Hook 是否启用/信任、是否重载 VS Code、后台是否有新心跳；只写脱敏摘要。
